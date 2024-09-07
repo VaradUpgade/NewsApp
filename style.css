@@ -1,0 +1,109 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/* Header CSS */
+.header{
+    background-color: rgb(204, 190, 144);
+    height: 75px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: rgb(116, 89, 0);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+select , button{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #533d00;
+    font-size: 16px;
+    background-color: #726937cb;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* CARDS */
+.cards{
+    margin-top: 30px;
+}
+
+.cards-container{
+    display: flex;
+    column-gap: 4%;
+    row-gap:30px;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 48%;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 3%;
+    padding: 15px;
+}
+
+.news-img{
+    width: 42%;
+}
+
+.news-img > img{
+    width: 100%;
+}
+
+.content{
+    width: 55%;
+}
+
+.title{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.content > p{
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+    font-style: italic
+}
+
+.details{
+    font-size: 15px !important;
+    font-style: normal !important;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid #0b6d86;
+    background-color: #0b6d86;
+    color: white;
+    padding: 5px 10px;
+}
